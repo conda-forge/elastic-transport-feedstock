@@ -1,11 +1,11 @@
-About elastic-transport
-=======================
+About elastic-transport-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/elastic-transport-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/elastic/elastic-transport-python
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/elastic-transport-feedstock/blob/main/LICENSE.txt)
 
 Summary: Transport classes and utilities shared among Python Elastic client libraries
 
@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@ezimuel](https://github.com/ezimuel/)
 * [@joshmock](https://github.com/joshmock/)
+* [@pquentin](https://github.com/pquentin/)
 
