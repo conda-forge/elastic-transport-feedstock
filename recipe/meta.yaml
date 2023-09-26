@@ -21,6 +21,7 @@ requirements:
   run:
     - python >=3.6
     - urllib3 >=1.26.2,<2
+    - certifi
 
 test:
   imports:
