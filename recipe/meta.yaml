@@ -1,5 +1,5 @@
 {% set name = "elastic-transport" %}
-{% set version = "8.4.1" %}
+{% set version = "8.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/elastic-transport-{{ version }}.tar.gz
-  sha256: e5548997113c5d9566c9a1a51ed67bce50a4871bc0e44b692166461279e4167e
+  sha256: ca51d08a4d16611701a57fb70592dbc7cb68c40fef4ac1becfe4aea100fe82ef
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - python >=3.6
   run:
     - python >=3.6
-    - urllib3 >=1.26.2,<2
+    - urllib3 >=1.26.2,<3
     - certifi
 
 test:
