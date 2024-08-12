@@ -1,5 +1,5 @@
 {% set name = "elastic-transport" %}
-{% set version = "8.13.1" %}
+{% set version = "8.15.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 16339d392b4bbe86ad00b4bdeecff10edf516d32bc6c16053846625f2c6ea250
+  sha256: 85d62558f9baafb0868c801233a59b235e61d7b4804c28c2fadaa866b6766233
 
 build:
   noarch: python
