@@ -23,6 +23,7 @@ requirements:
     - python >={{ python_min }}
     - urllib3 >=1.26.2,<3
     - certifi
+    - sniffio
 
 test:
   imports:
